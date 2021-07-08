@@ -1,0 +1,186 @@
+/* hacked ul for class="products masonry isotope" to be center-aligned */
+
+#Content {
+    box-shadow: inset 0px 1px 0.75em gray;
+    min-height: 980px;
+}
+
+#product-list {
+    margin-left: 20%;
+    margin-right: -15%;   
+}
+
+.topnav-right { 
+    /* This adjusts the placement of the login button on the navigation bar. */
+    margin-left: 420px;
+}
+
+#product-page-numbers {
+    margin-left: 180px;
+    margin-right: -127px;
+}
+
+.logo img {
+    margin-top: 10px;
+}
+
+#catalog-subtitle {
+
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    color: #ee3e30;
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-right: -15%;   
+    text-align:center;
+    text-transform: uppercase;
+    
+}
+
+.page-subtitle {
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    color: #ee3e30;
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-right: 25%;   
+    text-align:center;
+    text-transform: uppercase;
+}
+
+#input-form {
+    margin-left: 25%;
+    margin-right: 25%;   
+    padding-bottom: 5%;
+}
+
+#input-form input{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#input-form>div>label {
+    font-style: italic;
+    font-size: 1.3em;
+    text-align: center;   
+}
+
+#password-tips {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: justify;
+}
+
+#input-form>div>input[type=submit] {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.error-diagnostic {
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    border: .5px solid #9e3535;
+    border-radius: 5px;
+    color: #9e3535;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#error-diagnostic-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+
+main {
+    min-height: 750px;
+}
+
+.formLink { 
+    /* note. since anchor is an inline element, i use div to convert it to a block so it takes up maximum viewport width. */
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.error-diagnostic > button {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/*//* Relating to the styling of the logged in header */
+/* This hack pushes the my account and logout button to the right side of navbar */
+#myAccountButton {
+    margin-left: 350px !important;
+}
+
+/* This rule applies to the navbar when you make the viewport narrow enough */
+/* It gets rid of the margin-left that we applied earlier. */
+@media only screen and (max-width: 1239px) {
+    #Top_bar #menu ul li {
+    margin-left: 0px !important;
+}
+}
+
+/* This rule applies to status messages that appear on successful form submissions. */
+.status-diagnostic {
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 60%;
+    border: .5px solid #66d357;
+    border-radius: 5px;
+    color: #496b56;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* This rule applies to status messages titles that appear on successful form submissions. */
+#diagnostic-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* This rule applies to the box that contains the product title and image on the catalog page */
+.woocommerce ul.products li.product .desc {
+	background: rgba(0,0,0,0);
+	
+}
+
+#banner {
+    display: block;
+	margin-left: 25%;
+	border: 0.5px solid fuchsia;
+}
+
+@media only screen and (max-width: 1239px) {
+#banner {
+    margin-left: 20% !important;
+    width: 95%;
+}
+}

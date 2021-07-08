@@ -1,0 +1,134 @@
+.user-profile .user-profile-card {
+  position   : relative;
+  padding-top: 0;
+  overflow   : hidden;
+}
+
+.user-profile-card .user-profile-header {
+  background     : url("http://lorempixel.com/850/280/nature/4/");
+  background-size: cover;
+  height         : 245px;
+}
+
+.user-profile-card .user-profile-avatar {
+  position     : relative;
+  top          : -110px;
+  margin-bottom: -110px;
+  padding      : 0 15px;
+}
+
+.user-profile-avatar img {
+  width                : 250px;
+  height               : 250px !important;
+  -webkit-border-radius: 50%;
+  -moz-border-radius   : 50%;
+  border-radius        : 50%;
+  border               : 2px solid rgba(0, 0, 0, 0.2);
+  float                : right;
+  object-fit           : cover;
+}
+
+.user-profile small {
+  display    : block;
+  line-height: 1.428571429;
+  color      : #999;
+
+}
+
+
+#profile-page-header-title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color         : #ee3e30;
+  font-family   : Roboto, sans-serif;
+  font-size     : 1.5em;
+  font-weight   : bold;
+  margin-left   : 25px;
+  margin-bottom : 0px;
+  border-bottom : 2px solid rgba(255, 174, 174, 0.541);
+  margin-right  : 40px;
+}
+
+#sticker-header {
+  border-top    : 1.25px solid rgba(255, 50, 15, 0.2);
+  color         : #ee3e30;
+  font-family   : Roboto, sans-serif;
+  font-size     : 2rem;
+  font-weight   : bold;
+  letter-spacing: 1px;
+  text-align    : center;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+#username {
+  font-family: Roboto, sans-serif;
+  font-size  : 4em;
+  margin-top : 15px;
+}
+
+#ranking {
+  font-family  : Roboto, sans-serif;
+  font-weight  : 300;
+  margin-left  : 5px;
+  margin-bottom: 15px;
+  padding-top  : 10px;
+}
+
+#quote {
+  font-family  : Roboto, sans-serif;
+  font-style   : italic;
+  margin-left  : 5px;
+  margin-bottom: 15px;
+}
+
+
+/* extra padding for the page slider when user has above 4 stickers. */
+.slider_pagination {
+  padding-bottom: 15px;
+}
+/* This displays when the user has no products in their page. */
+.no-products {
+  font-family  : Roboto, sans-serif;
+  font-style   : italic;
+  margin-left  : 5px;
+  margin-bottom: 15px;
+}
+
+/* This refers to the carousel buttons on the profile when the user has more than 4 stickers. */
+.shop_slider .blog_slider_header {
+  margin-right: 25px;
+}
+
+/* This CSS is for a dialog that pops up when the user has no stickers. */
+.no-sticker-message {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+/* This CSS is for the edit profile picture button */
+#editProfilePicture {
+  margin-left: 40% !important;
+  margin-bottom: 15px;
+}
+
+#cancel-button {
+  margin-left: 25%;
+}
+#cancel-button .button_label {
+  text-align: center;
+}
+
+/* This CSS is for a description set by the user. */
+#userDescription {
+  width: 50%;
+  margin-left: 25%;
+  resize: none;
+}
+
+/* This CSS is for the scaling of images as the user's browser increases width -- it ensures it never goes beyond 500px. */
+.shop_slider .shop_slider_ul li {
+	float: left;
+	max-width: 500px !important;
+	list-style: none;
+}
